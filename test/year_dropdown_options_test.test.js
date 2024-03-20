@@ -132,6 +132,7 @@ describe("YearDropdownOptions", () => {
         onChange={mockHandleChange}
         onCancel={onCancelSpy}
       />,
+      // 
     );
     fireEvent.mouseDown(document.body);
     fireEvent.touchStart(document.body);
